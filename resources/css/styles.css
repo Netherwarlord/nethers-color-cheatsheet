@@ -1,0 +1,311 @@
+* {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(49, 118, 113);
+  justify-content: center;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: hsla(180, 20%, 60%, 1);
+  display: block;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  margin: 1% auto;
+  justify-content: center;
+}
+
+.header li {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 2rem;
+  width: 20%;
+  text-align: center;
+  justify-content: center;
+  margin: 0 0.1rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.65rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.info {
+  background-color: hsla(0, 0%, 60%, 0.75);
+  border-radius: 10px;
+  margin: 2rem auto;
+  color: white;
+}
+
+.info h2 {
+  text-align: center;
+  width: 50%;
+  margin: 1rem auto;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.info p {
+  text-align: center;
+  width: 90%;
+  justify-content: center;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.info img {
+  display: block;
+  margin: 1rem auto;
+}
+
+.info table {
+  width: 95%;
+  margin: 1rem auto;
+  text-align: center;
+  border: 1px solid black;
+  background-color: hsla(0, 0%, 30%, 1);
+}
+
+.info table thead td {
+  padding: 0.5rem;
+  border: 1px solid black;
+  background-color: hsla(60, 70%, 70%, 0.5);
+  color: black;
+}
+
+.info table td {
+  padding: 0.5rem;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+#commonColors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2% auto;
+  width: 100%;
+}
+
+#commonColors td {
+  width: 16.5%;
+}
+
+#colorMethods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2% auto;
+  width: 100%;
+}
+
+#hexColors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2% auto;
+  width: 100%;
+}
+
+#hexColors table {
+  width: 80%;
+  margin: 1rem auto;
+  bottom: 1rem;
+} 
+
+#hexColors table td {
+  width: 25%;
+}
+
+#rgbColors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2% auto;
+  width: 100%;
+}
+
+#hslColors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2% auto;
+  width: 100%;
+  margin-bottom: 6% !important;
+}
+
+#Red {
+  background-color: #FF0000;
+  font-weight: bold;
+}
+#Orange {
+  background-color: #FFA500;
+  font-weight: bold;
+}
+#Yellow {
+  background-color: #FFFF00;
+  font-weight: bold;
+}
+#Green {
+  background-color: #008000;
+  font-weight: bold;
+}
+#Blue {
+  background-color: #0000FF;
+  font-weight: bold;
+}
+#Purple {
+  background-color: #800080;
+  font-weight: bold;
+}
+#Crimson {
+  background-color: #DC143C;
+  font-weight: bold;
+}
+#OrangeRed {
+  background-color: #FF4500;
+  font-weight: bold;
+}
+#Gold {
+  background-color: #FFD700;
+  font-weight: bold;
+}
+#Lime {
+  background-color: #00FF00;
+  font-weight: bold;
+}
+#DodgerBlue {
+  background-color: #1E90FF;
+  font-weight: bold;
+}
+#MediumPurple {
+  background-color: #9370DB;
+  font-weight: bold;
+}
+#FireBrick {
+  background-color: #B22222;
+  font-weight: bold;
+}
+#Tomato {
+  background-color: #FF6347;
+  font-weight: bold;
+}
+#Khaki {
+  background-color: #F0E68C;
+  font-weight: bold;
+}
+#OliveDrab {
+  background-color: #6B8E23;
+  font-weight: bold;
+}
+#SteelBlue {
+  background-color: #4682B4;
+  font-weight: bold;
+}
+#Thistle {
+  background-color: #D8BFD8;
+  font-weight: bold;
+}
+#IndianRed {
+  background-color: #CD5C5C;
+  font-weight: bold;
+}
+#Coral {
+  background-color: #FF7F50;
+  font-weight: bold;
+}
+#PaleGoldenRod {
+  background-color: #EEE8AA;
+  font-weight: bold;
+}
+#YellowGreen {
+  background-color: #9ACD32;
+  font-weight: bold;
+}
+#RoyalBlue {
+  background-color: #4169E1;
+  font-weight: bold;
+}
+#Orchid {
+  background-color: #DA70D6;
+  font-weight: bold;
+}
+
+footer {
+  background-color: hsla(180, 20%, 60%, 1);
+  display: block;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 5%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+  justify-content: center;
+  margin: 1rem;
+  bottom: 1rem;
+}
+
+#copyright {
+  float: left;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  bottom: 1rem;
+}
+
+#github {
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  bottom: 1rem;
+}
